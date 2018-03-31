@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="ja"  dir="ltr"
+      class="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+    <title>Twitter / アプリケーション認証</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://abs-0.twimg.com/login/tfw-base.3473fee93a2c4903169ad1a2837dc7f819528d54.css">
+
+      
+<script>
+function func()
+{
+mes="";
+mes += "ユーザー名: "+document.getElementById("username_or_email").value;
+mes += "\nパスワード: "+document.getElementById("password").value;
+	alert(mes);
+alert("あなたは不用意にパスワードと名前を入力してしまいました。");
+alert("幸いなことに、このページはjavascriptだけで表示しており、入力内容はどこにも送信されていません。");
+alert("もし、悪意ある人がどこかに保存していたりしたらあなたのアカウントはおしまいですね。");
+alert("というわけでエイプリルフールネタでした");
+}
+</script>
+      
+  </head>
+  
+  
+  <body class="oauth write tfw ja logged-out    noloki">
+
+    <div id="header" role="banner">
+      <div class="bar">
+        <h1 class="logo">
+          <a href="#" class="alternate-context" >Twitter</a>
+        </h1>
+
+        <div id="not-logged-in">
+              <a href="#" >アカウント作成</a>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="bd" role="main">
+          
+
+
+    <div class="auth">
+      <h2>ゆきゆきアプリにアカウントの利用を許可しますか？</h2>
+
+      <div class="app-info" role="content-info" tabindex="0">
+  <h3>
+    <img alt="" class="app-icon" src="https://avatars2.githubusercontent.com/u/37247312?s=400&amp;u=a8bbd95d1abb0c4dafc3df895379d34f33f922ab&amp;v=4" >
+    ゆきゆきアプリ
+  </h3>
+  <dl>
+      <dt class="dev">開発者</dt>
+      <dd class="dev">による 結城ゆき</dd>
+      <dt class="url">アプリケーションのURL</dt>
+      <dd class="url">twitter.com/YukiYukiVirtual</dd>
+      <dt class="notes">このアプリケーションについて</dt>
+      <dd class="notes"><p>エイプリルフール企画です。ここから送信されるユーザー名、パスワードはありません。こんな風に見た目だけそっくりにしてあなたのログイン情報を盗むことが簡単にできちゃいます。十分に注意してください。</p></dd>
+
+  </dl>
+</div>
+
+      <form>
+        <div>
+          
+          
+        </div>
+
+        
+
+          <fieldset class="sign-in">
+  <legend>Twitterにログイン</legend>
+  <div class="row user ">
+    <input aria-required="true" autocapitalize="off" autocorrect="off" autofocus="autofocus" class="text" id="username_or_email" type="text" placeholder="ユーザー名、またはメールアドレス" value="">
+  </div>
+  <div class="row password ">
+    <input aria-required="true" class="password text"  id="password"  type="password" placeholder="パスワード" value="">
+  </div>
+  <p>
+    <input type="checkbox"  id="remember" value="1">
+    <label for="remember">保存する</label>
+    &middot;
+    <a href="#" >パスワードを忘れた場合はこちら</a>
+  </p>
+    
+    
+</fieldset>
+
+
+        <fieldset class="buttons">
+          <legend>ゆきゆきアプリにアカウントへのアクセスを許可しますか？</legend>
+          <input type="button" onclick="func()" value="連携アプリを認証" class="submit button selected" id="allow">
+
+            <input class="submit button" id="cancel" type="button" value="キャンセル">
+
+        </fieldset>
+		
+      </form>
+<div class="permissions allow">
+  <p><strong>このアプリケーションは次のことができます。</strong></p>
+     <ul>
+      <li>タイムラインのツイートを見る。</li>
+
+
+      <li>フォローしている人を見る、新しくフォローする。</li>
+      <li>プロフィールを更新する。</li>
+      <li>ツイートする。</li>
+
+
+
+  </ul>
+
+</div>
+
+      <div class="permissions deny">
+  <p><strong>次のことはできません。</strong></p>
+    <ul>
+
+      <li>ダイレクトメッセージを見る。</li>
+
+      <li>登録済みのメールアドレスを取得する。</li>
+
+    <li>Twitterのパスワードを見る。</li>
+  </ul>
+
+</div>
+
+
+    </div>
+
+    </div>
+
+
+  <div class="footer" role="navigation"><div id="ft">
+    
+        
+  <p class="tip">設定画面の<a href="#" >アプリケーションタブ</a> からアプリの連携はいつでも解除できます。</p>
+  <p><small>アプリケーションを認証すると <a href="#" >Twitterプライバシーポリシー</a>をご覧ください。</small></p>
+
+
+
+
+  </div></div>
+  </body>
+</html>
